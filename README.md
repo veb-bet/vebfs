@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://github.com/veb-bet/fsutils/raw/ff362f8f30d1a9debc566ff5ed54a5bcca221b43/docs/bat_image.png" alt="fsutils logo" width="150"/>
+  <img src="https://github.com/veb-bet/vebfs/raw/ff362f8f30d1a9debc566ff5ed54a5bcca221b43/docs/bat_image.png" alt="fsutils logo" width="150"/>
 </p>
 
-# fsutils
+# vebfs
 Удобная библиотека Python для работы с файловой системой: копирование, перемещение, удаление, резервное копирование и поиск по шаблону.
 
 
@@ -11,14 +11,14 @@
 Установка из исходников (локально):
 
 ```bash
-git clone https://github.com/your-username/fsutils.git
-cd fsutils
+git clone https://github.com/your-username/vebfs.git
+cd vebfs
 pip install -e .
 ```
 
 ## Использование
 ```python
-from fsutils import (
+from vebfs import (
     copy_file, move_file, delete_file, delete_directory,
     create_backup, get_file_size, list_all_files,
     ensure_directory_exists, find_files, find_directories
