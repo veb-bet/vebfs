@@ -23,20 +23,26 @@ from vebfs import (
     create_backup, get_file_size, list_all_files,
     ensure_directory_exists, find_files, find_directories
 )
+
 # Копирование
 copy_file("example.txt", "copy_example.txt")
+
 # Перемещение
 move_file("copy_example.txt", "moved_example.txt")
+
 # Бэкап
 create_backup("moved_example.txt", "backup.txt")
+
 # Удаление
 delete_file("moved_example.txt")
 delete_directory("old_folder", recursive=True)
+
 # Проверка папки
 ensure_directory_exists("logs")
+
 # Поиск
-print(find_files(".", "*.txt"))
-print(find_directories(".", "log*"))
+print("Все .txt файлы:", find_files(".", "*.txt"))
+print("Все директории с 'log':", find_directories(".", "log*"))
 ```
 
 ## Тестирование
