@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/veb-bet/vebfs/raw/ff362f8f30d1a9debc566ff5ed54a5bcca221b43/docs/bat_image.png" alt="fsutils logo" width="150"/>
+  <img src="https://github.com/veb-bet/vebfs/raw/ff362f8f30d1a9debc566ff5ed54a5bcca221b43/docs/bat_image.png" alt="vebfs logo" width="150"/>
 </p>
 
 # vebfs
