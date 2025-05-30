@@ -7,8 +7,7 @@ setup(
     install_requires=[],
     test_suite='tests',
     description='Библиотека для удобных операций с файлами и папками.',
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='veb-bet',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
